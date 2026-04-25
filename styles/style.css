@@ -24,7 +24,7 @@ nav{
 }
 
 .text-primary{
-    color: #FD6E0A;
+    color: #f3a770;
     
 }
 
@@ -37,6 +37,10 @@ nav{
     text-decoration: none;
     font-size: 20px;
  }
+
+ .secondary-bg{
+    background-color: #FFF8F3;
+ }
  .dark-2{
     color: #474747;
  }
@@ -48,7 +52,7 @@ nav{
  }
 
  .btn-primary{
-    background-color: #FD6E0A;
+    background-color: #984306;
     font-weight: bold;
     color: white;
     padding: 18px 35px;
@@ -85,5 +89,25 @@ nav{
  .banner-img{
     width: 580px;
 
+ }
+
+ .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+ }
+
+ /*main*/
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+ /*about style*/
+ .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
  }
  
