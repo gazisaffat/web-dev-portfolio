@@ -64,6 +64,13 @@ nav{
     border: none;
  }
 
+ .btn-primary:hover{
+   transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+     transition: all 0.5s ease;
+}
+ 
+
 
  /* banner styles */
  .banner{
@@ -91,8 +98,14 @@ nav{
  }
  .banner-img{
     width: 580px;
+     transition: all 0.5s ease;
 
  }
+
+.image-frame:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
 
  .section-title{
     font-size: 35px;
