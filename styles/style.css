@@ -24,13 +24,13 @@ nav{
 .nav-title{
     font-weight:800;
     font-size:45px; 
-    
-}
+} 
+
 
 .text-primary{
     color: #f3a770;
-    
 }
+
 
  nav ul li {
     list-style: none;
@@ -192,4 +192,29 @@ footer input[type="text"], input[type="email"], textarea{
    padding: 10px 20px;
    margin-bottom: 24px;
    border: none;
+}
+
+
+
+.hide{
+   display: none;
+}
+
+@media screen and (max-width: 576px) {
+   .skills-container,.resume-container,footer,.about-items{
+     flex-direction: column;
+   }
+   footer,.about{
+      padding: 20px;
+   }
+
+   .footer-column{
+      width: 100% ;
+   }
+    footer input[type="text"], input[type="email"], textarea{
+      width: calc(100% - 40px);
+    }
+
+
+   
 }
